@@ -17,6 +17,7 @@ const elements = document.querySelectorAll(".rating");
 // All of this should be assigned to the existing rating variable.
 
 elements.forEach((element) => {
-  let ratingnum = element.id.replace("star", "");
-  rating = parseInt(ratingnum);
+  //let ratingnum = element.id.replace("star", "");
+  rating = parseInt(element.id.replace("star", ""));
+  console.log(rating);
 });
