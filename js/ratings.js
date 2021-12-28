@@ -10,5 +10,5 @@ const elements = document.querySelectorAll(".rating");
 
 elements.forEach((element) => {
   rating = parseInt(element.id.replace("star", ""));
-  count = +parseInt(element.value);
+  ratings.count += parseInt(element.value);
 });
