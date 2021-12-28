@@ -18,3 +18,4 @@ function collect_ratings() {
   }
   return ratings;
 }
+document.onchange(() => {});
