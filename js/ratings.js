@@ -16,4 +16,7 @@ const elements = document.querySelectorAll(".rating");
 // Pass this statement to parseInt() to convert the remaining string to a number.
 // All of this should be assigned to the existing rating variable.
 
-elements.forEach((element) => myfunction(element));
+elements.forEach((element) => {
+  let ratingnum = element.id.replace("star", "");
+  rating = parseInt(ratingnum);
+});
